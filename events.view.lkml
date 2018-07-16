@@ -39,6 +39,6 @@ view: events {
 
   measure: count {
     type: count
-    drill_fields: [users.id, users.first_name, users.last_name, users.id]
+    drill_fields: [users.first_name, users.last_name, users.id]
   }
 }
